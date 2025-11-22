@@ -21,7 +21,7 @@ public class UserController {
     public Users register(@RequestBody Users user){
         return service.register(user);
     }
-
+//Varadraj
 //changes
     // ✅ UPDATED PART — Added /login endpoint
     @PostMapping("/login")
